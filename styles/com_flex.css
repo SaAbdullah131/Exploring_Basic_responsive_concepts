@@ -55,3 +55,11 @@ img {
         height: 400px;
     }
 }
+@media  screen and (min-width:578px ) and (max-width:998px) {
+    .second-row,.third-row {
+        flex-direction: column;
+    }
+    .third-row-second-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
